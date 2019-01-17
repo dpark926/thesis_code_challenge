@@ -19,16 +19,16 @@ class Header extends Component {
           </div>
           <nav className="flex-auto col-8 center">
             <Link href="#">
-              <a className="link nav-link h3 p2 mx1">About</a>
+              <a className="link nav-link h3 px2 py1 mx1">About</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 p2 mx1">Integrations</a>
+              <a className="link nav-link h3 px2 py1 mx1">Integrations</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 p2 mx1">Pricing</a>
+              <a className="link nav-link h3 px2 py1 mx1">Pricing</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 p2 mx1">Contacts</a>
+              <a className="link nav-link h3 px2 py1 mx1">Contacts</a>
             </Link>
           </nav>
           <div className="col-2">

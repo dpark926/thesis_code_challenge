@@ -26,6 +26,46 @@ a {
   }
 }
 
+.input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.dark-white {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .pointer {
   cursor: pointer;
+}
+
+button {
+  background: #24bbff;
+  color: white;
+  &:hover {
+    background: #2084ff;
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+  }
+}
+
+.index {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url("../assets/hero-img.png");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
