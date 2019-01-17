@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
+import "../styles/header.scss";
 
 class Header extends Component {
   constructor() {
@@ -12,26 +13,26 @@ class Header extends Component {
     return (
       <header>
         <div className="flex py2 px4" style={{ alignItems: "center" }}>
-          <div className="col-2">
+          <div className="home-icon">
             <Link href="#">
               <a className="h1 link">Stamp</a>
             </Link>
           </div>
-          <nav className="flex-auto col-8 center">
+          <nav className="navbar flex-auto col-8 center">
             <Link href="#">
-              <a className="link nav-link h3 px2 py1 mx1">About</a>
+              <a className="link nav-link h3">About</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 px2 py1 mx1">Integrations</a>
+              <a className="link nav-link h3">Integrations</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 px2 py1 mx1">Pricing</a>
+              <a className="link nav-link h3">Pricing</a>
             </Link>
             <Link href="#">
-              <a className="link nav-link h3 px2 py1 mx1">Contacts</a>
+              <a className="link nav-link h3">Contacts</a>
             </Link>
           </nav>
-          <div className="col-2">
+          <div className="menu-icon">
             <FaBars className="link right pointer" size="2em" />
           </div>
         </div>

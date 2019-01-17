@@ -1,3 +1,6 @@
+$break-small: 320px;
+$break-large: 1200px;
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -9,21 +12,17 @@ a {
   color: inherit;
 }
 
-.link {
-  &:hover {
-    color: #50fcce;
-    -webkit-transition: all 350ms ease-in-out;
-    transition: all 350ms ease-in-out;
-  }
-}
-
-.nav-link {
-  border: 1px solid transparent;
-  &:hover {
-    border: 1px solid #50fcce;
-    -webkit-transition: all 350ms ease-in-out;
-    transition: all 350ms ease-in-out;
-  }
+.index {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url("../assets/hero-img.png");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
 }
 
 .input {
@@ -55,17 +54,4 @@ button {
     -webkit-transition: all 350ms ease-in-out;
     transition: all 350ms ease-in-out;
   }
-}
-
-.index {
-  background-image: linear-gradient(
-      rgba(20, 20, 20, 0.5),
-      rgba(20, 20, 20, 0.5)
-    ),
-    url("../assets/hero-img.png");
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
 }
