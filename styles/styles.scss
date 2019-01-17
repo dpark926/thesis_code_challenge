@@ -7,7 +7,25 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.link {
   &:hover {
-    color: red;
+    color: #50fcce;
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
   }
+}
+
+.nav-link {
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid #50fcce;
+    -webkit-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+  }
+}
+
+.pointer {
+  cursor: pointer;
 }

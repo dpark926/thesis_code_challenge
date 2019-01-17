@@ -11,28 +11,28 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="flex py2 px3" style={{ alignItems: "center" }}>
-          <div>
+        <div className="flex py2 px4" style={{ alignItems: "center" }}>
+          <div className="col-2">
             <Link href="#">
-              <a className="h1">Stamp</a>
+              <a className="h1 link">Stamp</a>
             </Link>
           </div>
-          <nav className="flex-auto center">
+          <nav className="flex-auto col-8 center">
             <Link href="#">
-              <a className="h3 px3">About</a>
+              <a className="link nav-link h3 p2 mx1">About</a>
             </Link>
             <Link href="#">
-              <a className="h3 px3">Integrations</a>
+              <a className="link nav-link h3 p2 mx1">Integrations</a>
             </Link>
             <Link href="#">
-              <a className="h3 px3">Pricing</a>
+              <a className="link nav-link h3 p2 mx1">Pricing</a>
             </Link>
             <Link href="#">
-              <a className="h3 px3">Contacts</a>
+              <a className="link nav-link h3 p2 mx1">Contacts</a>
             </Link>
           </nav>
-          <div>
-            <FaBars size="2em" />
+          <div className="col-2">
+            <FaBars className="link right pointer" size="2em" />
           </div>
         </div>
       </header>
