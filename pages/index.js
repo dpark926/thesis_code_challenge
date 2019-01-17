@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Link from "next/link";
+import "../styles/styles.scss";
 
 class index extends Component {
   constructor() {
@@ -8,7 +9,7 @@ class index extends Component {
   }
 
   render() {
-    return <div>Hello world</div>;
+    return <div className="example">Hello world</div>;
   }
 }
 
