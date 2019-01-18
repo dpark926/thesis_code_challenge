@@ -1,7 +1,7 @@
 To run locally:
 
-run `npm install` for dependency installation
-run `npm run dev` to see on localhost:3000
+- run `npm install` for dependency installation
+- run `npm run dev` to see on localhost:3000
 
 ## Thank You!
 
