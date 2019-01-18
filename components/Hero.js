@@ -71,7 +71,7 @@ class Hero extends Component {
             </form>
             <div className="center p2">
               <p className="dark-white">By clicking "Sign up" I agree to our</p>
-              <Link href="#">
+              <Link href="#" rel="canonical">
                 <a className="link">Terms of Service</a>
               </Link>
             </div>

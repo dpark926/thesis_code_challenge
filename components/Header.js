@@ -14,21 +14,21 @@ class Header extends Component {
       <header>
         <div className="header-container flex" style={{ alignItems: "center" }}>
           <div className="home-icon">
-            <Link href="#">
+            <Link href="#" rel="canonical">
               <a className="h1 link">Stamp</a>
             </Link>
           </div>
           <nav className="navbar flex-auto col-8 center">
-            <Link href="#">
+            <Link href="#" rel="canonical">
               <a className="link nav-link h3">About</a>
             </Link>
-            <Link href="#">
+            <Link href="#" rel="canonical">
               <a className="link nav-link h3">Integrations</a>
             </Link>
-            <Link href="#">
+            <Link href="#" rel="canonical">
               <a className="link nav-link h3">Pricing</a>
             </Link>
-            <Link href="#">
+            <Link href="#" rel="canonical">
               <a className="link nav-link h3">Contacts</a>
             </Link>
           </nav>

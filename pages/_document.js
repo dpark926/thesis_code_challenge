@@ -24,6 +24,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:400,500"
             rel="stylesheet"
           />
+          <link rel="icon" type="image/png" href="../assets/favicon.png" />
+          <link rel="apple-touch-icon" href="/custom-icon.png" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+          <meta name="msapplication-config" content="browserconfig.xml" />
         </Head>
         <body className="custom_class">
           <Main />

@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -15,6 +16,13 @@ class index extends Component {
   render() {
     return (
       <div className="index z2">
+        <Head>
+          <title>Thesis + Daniel = Awesomeness!</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+          />
+        </Head>
         <Header />
         <Hero />
         <Footer />
