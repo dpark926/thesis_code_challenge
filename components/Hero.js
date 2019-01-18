@@ -24,7 +24,7 @@ class Hero extends Component {
 
     return (
       <main className="hero flex">
-        <div className="hero-section flex flex-column justify-center">
+        <div className="hero-section flex flex-column justify-center items-end">
           <div className="hero-left">
             <h1 className="hero-header h1">
               Simple Way to Organize Your Inspirations
