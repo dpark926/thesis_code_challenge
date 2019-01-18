@@ -23,7 +23,7 @@ class Hero extends Component {
     const { name, email, password } = this.state;
 
     return (
-      <main className="hero flex">
+      <main className="flex">
         <div className="hero-section flex flex-column justify-center items-end">
           <div className="hero-left">
             <h1 className="hero-header h1">

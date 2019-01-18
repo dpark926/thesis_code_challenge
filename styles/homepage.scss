@@ -1,14 +1,13 @@
 @import "./variables";
 
-.hero {
+main {
   flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem;
 
   @media only screen and (min-width: $break-medium) {
     flex-direction: row;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 4rem 2rem;
   }
 }
 
