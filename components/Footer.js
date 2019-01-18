@@ -11,7 +11,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="flex">
-        <p>©2016 Stamp. All Rights Reserved</p>
+        <p className="nowrap">©2016 Stamp. All Rights Reserved</p>
         <nav className="flex footer-nav flex-auto">
           <div className="flex footer-links-left">
             <Link href="#">
