@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Link from "next/link";
+import "../styles/homepage.scss";
 
 class Hero extends Component {
   constructor() {
@@ -22,20 +23,20 @@ class Hero extends Component {
     const { name, email, password } = this.state;
 
     return (
-      <main className="flex px3">
-        <div className="flex flex-column p4 col-6 justify-center">
-          <div className="pl3">
-            <h1 className="h1" style={{ fontSize: "3.5em", fontWeight: 900 }}>
+      <main className="hero flex">
+        <div className="hero-section flex flex-column justify-center">
+          <div className="hero-left">
+            <h1 className="hero-header h1">
               Simple Way to Organize Your Inspirations
             </h1>
-            <p className="h2" style={{ lineHeight: 1.5 }}>
+            <p className="hero-tagline h2">
               I think what motivates people is not great hate, but great love
               for other people.
             </p>
           </div>
         </div>
-        <div className="flex flex-column p4 col-6 justify-center">
-          <div className="pr3">
+        <div className="hero-section flex flex-column justify-center">
+          <div className="hero-right">
             <form className="flex flex-column" onSubmit={this.onSubmit}>
               <label className="center h3 p3">SIGN UP FOR FREE</label>
               <input
@@ -62,7 +63,7 @@ class Hero extends Component {
               />
               <button
                 type="submit"
-                className="pointer border-none h3 p2"
+                className="signup-btn pointer border-none h3 p2"
                 disabled={!(name && email && password)}
               >
                 Sign up

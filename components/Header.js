@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="flex py2 px4" style={{ alignItems: "center" }}>
+        <div className="header-container flex" style={{ alignItems: "center" }}>
           <div className="home-icon">
             <Link href="#">
               <a className="h1 link">Stamp</a>
@@ -33,7 +33,7 @@ class Header extends Component {
             </Link>
           </nav>
           <div className="menu-icon">
-            <FaBars className="link right pointer" size="2em" />
+            <FaBars className="link right pointer" size="1.5em" />
           </div>
         </div>
       </header>
